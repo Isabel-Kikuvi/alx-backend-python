@@ -56,8 +56,7 @@ class TestAccessNestedMap(unittest.TestCase):
 
 
 class TestGetJson(unittest.TestCase):
-    """_summary_
-
+    """
     Args:
                     unittest (_type_): _description_
     """
@@ -79,15 +78,13 @@ class TestGetJson(unittest.TestCase):
 
 
 class TestMemoize(unittest.TestCase):
-    """_summary_
-
+    """
     Args:
                     unittest (_type_): _description_
     """
 
     def test_memoize(self):
-        """_summary_
-
+        """
         Returns:
                 _type_: _description_
         """
@@ -106,8 +103,7 @@ class TestMemoize(unittest.TestCase):
 
             @memoize
             def a_property(self):
-                """_summary_
-
+                """
                 Returns:
                         _type_: _description_
                 """
